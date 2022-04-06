@@ -18,7 +18,7 @@ if (m % j == 0) continue nextPrime;
 
 }
 
-console.log( m ); 
+  console.log( m ); 
 
 
 }
