@@ -5,21 +5,12 @@
 let userNumber = +prompt( 'Enter your number here!' );
 
 
-while ( isNaN(userNumber) || userNumber === 0 ){
+while ( userNumber % 1 !== 0 || isNaN(userNumber) || userNumber === 0 ){
 	
 
 userNumber = +prompt( 'Enter your number here!' );
 
 }
-
-
-while ( userNumber % 1 !== 0){
-
-
-userNumber = +prompt('Enter your number here!');
-
-}
-
 
 
 if ( userNumber < 5 ){
