@@ -14,11 +14,9 @@
 
 for(i=0 ; i < 20 ; i--){
  
- let userAge = 25 ;
+     let userAge = 25 ;
  
- console.log(userAge--);
-
-
+      console.log(userAge--);
 }
 
 // изначальное значение 25 будет выведено в консоль и //уменьшено на единицу каждый раз 20 раз 
