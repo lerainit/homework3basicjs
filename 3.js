@@ -8,7 +8,7 @@ let userNumber = +prompt( 'Enter your number here!' );
 while ( userNumber % 1 !== 0 || isNaN(userNumber) || userNumber === 0 ){
 	
 
-         userNumber = +prompt( 'Enter your number here!' );
+       userNumber = +prompt( 'Enter your number here!' );
 
   }
 
